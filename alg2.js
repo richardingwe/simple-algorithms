@@ -1,3 +1,7 @@
+/** write a function that takes a string and returns the character with the highest number of frequency
+    example: 'ababccb' should return --> { character: b, frequency: 3 }
+ **/
+
 function myString(string) {
     const counter = {};
     let max = { character: null, frequency: 0 };
